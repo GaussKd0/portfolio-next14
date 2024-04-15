@@ -15,7 +15,7 @@ export default function Header() {
           <p className="text-white cursor-pointer font-bold">Sobre</p>
           <p className="text-white cursor-pointer font-bold">Habilidades</p>
           <p className="text-white cursor-pointer font-bold">Contatos</p>
-          <Link href="/projetos">
+          <Link href="/">
             <p className="text-white cursor-pointer font-bold">Projetos</p>
           </Link>
         </div>

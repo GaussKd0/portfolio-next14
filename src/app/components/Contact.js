@@ -12,7 +12,7 @@ export default function Contact() {
 
     return (
         <div className="h-screen flex flex-col justify-center items-center space-y-10">
-            <h3 className="tracking-[20px] text-center uppercase text-gray-500 text-2xl">Contato</h3>
+            <h3 className="tracking-[20px] text-center uppercase text-gray-400 text-2xl">Contato</h3>
 
             <div className="flex flex-col space-y-4 items-center">
                 <div className="flex items-center space-x-2">

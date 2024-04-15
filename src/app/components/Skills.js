@@ -95,7 +95,7 @@ export default function Skills() {
 
     return (
         <div className="container mx-auto max-w-6xl">
-            <h3 className="tracking-[20px] text-center uppercase text-gray-500 text-2xl">Habilidades</h3>
+            <h3 className="tracking-[20px] text-center uppercase text-gray-400 text-2xl">Habilidades</h3>
             <div className="flex flex-col-reverse md:flex-row items-center justify-between">
                 <div className="md:w-1/2 grid grid-cols-3 gap-5">
                     {skills.map((item, index) => (
@@ -105,11 +105,11 @@ export default function Skills() {
                 <div className="md:w-1/2 z-auto pt-8 md:pt-0 md:pl-8">
                     <div className="container" ref={container}></div>
                     <style jsx>{`
-                        .container > svg {
-                            width: 100%;
-                            height: auto;
-                        }
-                    `}</style>
+                    .container > svg {
+                        width: 100%;
+                        height: auto;
+                    }
+                `}</style>
                 </div>
             </div>
         </div>
