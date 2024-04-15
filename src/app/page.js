@@ -12,7 +12,6 @@ export default function Home() {
       <Header/>
       <Body/>
       <Aboult/>
-      <Experience/>
       <Skills/>
       <Contact/>
     </main>
